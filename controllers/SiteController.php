@@ -130,5 +130,5 @@ class SiteController extends Controller
     public function actionClients()
     {
         return $this->render('clients');
-    }
+    } 
 }
