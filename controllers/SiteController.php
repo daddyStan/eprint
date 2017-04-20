@@ -122,4 +122,13 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    
+    /**
+     * Страница заведения и редактирования клиентов.
+     * @author Stanislav Koshpaev <hello@koshpaev.com>
+     */
+    public function actionClients()
+    {
+        return $this->render('clients');
+    }
 }
